@@ -1,0 +1,1 @@
+Select PatientName,Doctors From vwReportsAttPhysician Where convert (date,registrydate) between '2017-12-01' and '2017-12-31'

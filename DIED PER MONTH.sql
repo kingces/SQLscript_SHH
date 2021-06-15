@@ -1,0 +1,2 @@
+Select DATENAME(MONTH, CONVERT(date, registrydate)) [Month],Count(distinct PK_psPatRegisters) [Count]  From psPatRegisters Where isDiedIn48Hours = 1 and CONVERT(date, registrydate) between '2019-08-01' and '2019-10-31'
+group by DATENAME(MONTH, CONVERT(date, registrydate))

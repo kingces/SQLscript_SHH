@@ -1,0 +1,1 @@
+Select * From psPatRegisters Where isDiedIn48Hours = 1 and YEAR(convert(DATE, registrydate)) = 2018

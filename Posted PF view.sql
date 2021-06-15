@@ -1,0 +1,1 @@
+select dbo.udf_getfullname(FK_ASUPost)USERPOST, * from psDctrLedgers where FK_psPatRegisters = '334072'

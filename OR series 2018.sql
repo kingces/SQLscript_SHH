@@ -1,0 +1,1 @@
+Select PayorName,orno,ORAmount,ordate fROM vwReportCashiersSummary Where CONVERT(date,ordate) between '2020-12-03' and '2020-12-5'
